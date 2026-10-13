@@ -42,6 +42,13 @@ After building any component — update this file with the component name, file 
 	- Profile headings use primary text with accent emphasis; supporting copy uses `var(--color-text-secondary)` and completion metadata uses `var(--color-text-muted)`.
 	- Progress uses `var(--color-surface-tertiary)` as the track, `var(--color-accent)` as the fill, and `var(--radius-full)` for the track shape.
 
+### Find Jobs
+
+- `FindJobsPage` — `app/find-jobs/page.tsx`
+	- Placeholder until 09 Find Jobs Page — Full UI. Reuses the `ProfilePage` layout classes exactly: `.site-header`, `.nav-shell`, `.desktop-nav`, `.nav-cta`, `.profile-page`, `.profile-header`, `.profile-intro`, `.profile-card`, `.card-eyebrow`, and `.button button-dark`.
+	- Responsive breakpoint: `max-width: 760px`.
+	- Last updated: 2026-10-13.
+
 ### Authentication UI Baseline
 
 - Standard control radius: `var(--radius-md)`.

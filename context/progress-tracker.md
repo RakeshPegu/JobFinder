@@ -58,3 +58,4 @@ Update this file after every completed feature. Any AI agent reading this should
 
 - OAuth requires `NEXT_PUBLIC_APP_URL` plus Google/GitHub provider configuration and allowed redirect URLs in InsForge.
 - Successful OAuth login now lands on `/profile`; the protected profile page provides the InsForge server-side logout action.
+- `/find-jobs` has a protected placeholder page so the homepage and navbar links no longer return 404. It points users to `/profile` until 09 Find Jobs Page — Full UI replaces it.
